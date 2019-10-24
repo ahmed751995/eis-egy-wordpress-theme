@@ -14,8 +14,8 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700&display=swap" rel="stylesheet"> -->
 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/open-iconic-bootstrap.min.css"?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/animate.css";?> ">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/open-iconic-bootstrap.min.css" ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/animate.css"; ?> ">
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/owl.carousel.min.css"; ?> ">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/owl.theme.default.min.css"?> ">
@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <?php bootstrap_navigation_bar() ?>
             </div>
-            <a class="navbar-brand d-none d-md-block mr-auto" href="index.html">
+            <a class="navbar-brand d-none d-md-block mr-auto" href="<?php get_home_url();?>">
                 <img src="<?php echo get_template_directory_uri()."/images/eis-trans.png";?>" alt="eis">
             </a>
         </div>
@@ -73,8 +73,9 @@
             </div>
         </div>
     </section>
-    <?php } else { ?>
-    <section class="hero-wrap hero-wrap-2 cover">
+    <?php } ?> 
+    <?php //else { ?>
+    <!-- <section class="hero-wrap hero-wrap-2 cover">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
@@ -84,9 +85,9 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <?php } //end if?>
+    <?php //} //end if?>
 
 
 
