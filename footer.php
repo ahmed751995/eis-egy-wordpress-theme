@@ -1,112 +1,85 @@
-<footer class="ftco-footer ftco-bg-dark ftco-section">
+</main>
+<!--==========================
+     Footer
+     ============================-->
+<footer id="footer">
+    <div class="footer-top">
 	<div class="container">
-		<div class="row mb-5 d-flex">
-			<div class="col-md">
-				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">عن الشركه</h2>
-					<p>شركة ايجبشن انترناشيونال سرفيسز هي شركة ذات مسئولية محدودة، تم تأسيسها بالهيئة العامة للاستثمار والمناطق الحرة سنة 2014 طبقا للقانون المصرى رقم 159 لسنة 1981</p>
-					<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-						<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
-						<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-facebook"></span></a></li>
-						<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-instagram"></span></a></li>
-						<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-youtube"></span></a></li>
-						<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-pinterest"></span></a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md">
-				<div class="ftco-footer-widget mb-4 ml-md-4">
-					<h2 class="ftco-heading-2">الاكثر شعبيه</h2>
-					<!-- <ul class="list-unstyled">
-						<li><a href="#">Finding Agency</a></li>
-						<li><a href="#">Types of Modeling</a></li>
-						<li><a href="#">Freelance</a></li>
-						<li><a href="#">Search Models</a></li>
-						
-					</ul> -->
-				</div>
-			</div>
-			<div class="col-md nav-hide">
-				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">الروابط</h2>
-					<ul class="list-unstyled">
-						<li><a href="<?php get_template_directory_uri(); ?>">الصفحه الرئيسيه</a></li>
-						<li><a href="#">Models</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Terms &amp; Conditions</a></li>
-						<li><a href="#">FAQ</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md">
-				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">للتواصل معنا</h2>
-					<div class="block-23 mb-3">
-						<ul>
-							<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View,
-									San Francisco, California, USA</span></li>
-							
-							<li><a href="#"><span class="icon fa fa-mobile fa-xl"></span><span class="text"> 01000977901</span></a></li>
-							<li><a href="#"><span class="icon icon-envelope"></span><span class="text">mohmaed.aly@eis-egy.com</span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
+            <div class="row">
 
-			</div>
+		<div class="col-lg-4 col-md-6 footer-info">
+		    <h3>EIS</h3>
+		    <p>شركة ايجبشن انترناشيونال سرفيسز هي شركة ذات مسئولية محدودة، تم تأسيسها بالهيئة العامة للاستثمار والمناطق الحرة سنة 2014 طبقا للقانون المصرى رقم 159 لسنة 1981.</p>
 		</div>
+
+		<div class="col-lg-2 col-md-6 footer-links">
+		    <h4>الانتقال الي</h4>
+		    <ul>
+			<li><a href="https://www.eis-egy.com/">الصفحه الرئيسيه</a></li>
+			<li><a href="https://bit.ly/2D9aBTo">مقدمه عن الطاقه الشمسية</a></li>
+                        <li><a href="https://bit.ly/35xSB0S">الطاقة الشمسية الفولتضوئية و تطبيقاتها</a></li>
+			<li><a href="https://bit.ly/35sQiwf">الطاقه الشمسيه الحراريه</a></li>
+			<li><a href="https://bit.ly/2DotEJD">السخانات الشمسية</a></li>
+			<li><a href="https://bit.ly/2QJXP5A">صور</a></li>
+		    </ul>
+		</div>
+
+		<div class="col-lg-3 col-md-6 footer-contact">
+		    <h4>للتواصل معنا</h4>
+		    <ul>
+			<li><i class="fa fa-mobile fa-lg"></i> 01000977901</li>
+			<li><i class="fa fa-phone fa-flip-horizontal fa-lg"></i> 02-27032071</li>
+			<li><i class="fa fa-home fa-lg"></i> 16St 295 New Maadi - Cairo</li>
+			<li><i class="fa fa-envelope fa-lg"></i> mohamad.aly@eis-egy.com</li>
+		    </ul>
+		    
+		</div>
+
+		<div class="col-lg-3 col-md-6 footer-newsletter">
+		    <h4>يمكنك متابعتنا علي </h4>
+		    <div class="social-links">
+			<a href="https://twitter.com/Eis_Solar" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.facebook.com/EIS.Solar/" class="facebook"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.instagram.com/eis_solar/" class="instagram"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.youtube.com/channel/UCrtHTaAR_7hvJzcMPDzuVeA" class="youtube"><i class="fa fa-youtube"></i></a>
+			<a href="https://www.pinterest.com/EiS4Solar/" class="pinterest"><i class="fa fa-pinterest"></i></a>
+		    </div>
+		</div>
+	    </div>
 	</div>
-</footer>
+    </div>
 
-<!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-		<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-		<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-			stroke="#F96D00" /></svg></div>
+    <div class="container">
+	<div class="copyright">
+	    الحقوق محفوظه لشركه ايجبشن انترناشونال سرفيسز للطاقه الشمسيه
+	    &copy; 2019 
+        </div>
+    </div>
+</footer><!-- #footer -->
+<a href="https://wa.me/201000977901" class="back-to-top back-to-top-whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+<a href="#" class="back-to-top  scrolling-top"><i class="fa fa-chevron-up"></i></a>
 
+<!-- JavaScript Libraries -->
+<script src="<?php echo get_template_directory_uri()."/lib/jquery/jquery.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/jquery/jquery-migrate.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/bootstrap/js/bootstrap.bundle.min.js"; ?> "></script>
 
+<script  src="<?php echo get_template_directory_uri()."/lib/easing/easing.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/mobile-nav/mobile-nav.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/wow/wow.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/waypoints/waypoints.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/counterup/counterup.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/owlcarousel/owl.carousel.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/isotope/isotope.pkgd.min.js"; ?> "></script>
+<script  src="<?php echo get_template_directory_uri()."/lib/lightbox/js/lightbox.min.js"; ?> "></script>
+<!-- Contact Form JavaScript File -->
+<script  src="<?php echo get_template_directory_uri()."/contactform/contactform.js"; ?> "></script>
 
+<!-- Template Main Javascript File -->
+<script  src="<?php echo get_template_directory_uri()."/js/main.js"; ?> "></script>
 
-
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery-migrate-3.0.1.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/popper.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/bootstrap.min.js"; ?>"></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.easing.1.3.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.waypoints.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.stellar.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/owl.carousel.min.js";?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.magnific-popup.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/aos.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.animateNumber.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/bootstrap-datepicker.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/jquery.timepicker.min.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/scrollax.min.js"; ?> "></script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/google-map.js"; ?> "></script>
-
-<script src="<?php echo get_template_directory_uri()."/js/main.js"; ?> "></script>
 
 <?php wp_footer() ?>
-</body>
+           </body>
 
-</html>
+           </html>
